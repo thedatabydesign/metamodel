@@ -1,0 +1,131 @@
+{
+  "title": "New dashboard",
+  "version": "2.4",
+  "settings": {
+    "pagenumber": 0,
+    "editable": true,
+    "fullscreenEnabled": false,
+    "parameters": {},
+    "theme": "light"
+  },
+  "pages": [
+    {
+      "title": "New page",
+      "reports": [
+        {
+          "id": "a317a098-a2f4-4dc8-967a-2bd2e73fa896",
+          "title": "Meta model",
+          "query": "MATCH (n)-[r]->(m) RETURN n, r, m\n\n",
+          "width": 19,
+          "height": 7,
+          "x": 5,
+          "y": 0,
+          "type": "graph",
+          "selection": {
+            "Data_Contract": "name",
+            "GOVERNS": "(label)",
+            "Consumer": "(label)",
+            "INCLUDES": "(label)",
+            "Producer": "(label)",
+            "CREATES": "(label)",
+            "Datasets": "(label)",
+            "Data_Product": "name",
+            "CONTAINS_COLUMN": "(label)",
+            "Columns": "name",
+            "MEETS_REQUIREMENTS": "(label)",
+            "Data_Quality": "name",
+            "ASSIGNS": "(label)",
+            "Roles_Responsibilities": "name",
+            "BUILDS": "(label)",
+            "Data_Lineage": "name",
+            "DRIVES_MAPPING": "(label)",
+            "Business_Process": "name",
+            "Usecase": "(label)",
+            "INITIATES": "(label)"
+          },
+          "settings": {},
+          "schema": [
+            [
+              "Data_Contract",
+              "name"
+            ],
+            [
+              "GOVERNS"
+            ],
+            [
+              "Consumer",
+              "name"
+            ],
+            [
+              "INCLUDES"
+            ],
+            [
+              "Producer",
+              "name"
+            ],
+            [
+              "CREATES"
+            ],
+            [
+              "Datasets",
+              "name"
+            ],
+            [
+              "Data_Product",
+              "available_for_discovery",
+              "name"
+            ],
+            [
+              "CONTAINS_COLUMN"
+            ],
+            [
+              "Columns",
+              "name"
+            ],
+            [
+              "MEETS_REQUIREMENTS"
+            ],
+            [
+              "Data_Quality",
+              "name"
+            ],
+            [
+              "ASSIGNS"
+            ],
+            [
+              "Roles_Responsibilities",
+              "name"
+            ],
+            [
+              "BUILDS"
+            ],
+            [
+              "Data_Lineage",
+              "name"
+            ],
+            [
+              "DRIVES_MAPPING"
+            ],
+            [
+              "Business_Process",
+              "name"
+            ],
+            [
+              "Usecase",
+              "name"
+            ],
+            [
+              "INITIATES"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "parameters": {},
+  "extensions": {
+    "active": true,
+    "activeReducers": []
+  },
+  "uuid": "f10eb885-0343-4512-920f-64e3c0a14a16"
+}
